@@ -37,7 +37,7 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
                       <input type="email" id="email" name="email" class="form-control form-control-lg" required="true" placeholder="Email"/>
                       <label class="form-label" for="typeEmailX">Email</label>
                     </div>
-      
+                  
                     <div class="form-outline form-white mb-4">
                       <input type="password" id="password" name="password" class="form-control form-control-lg" required="true" placeholder="Password"/>
                       <label class="form-label" for="typePasswordX">Password</label>
@@ -46,7 +46,13 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
                     
       
                     <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
-      
+                 
+                 <br>
+                 <br>
+                 <br>
+                    @if (Route::has('register'))
+                    <a href="{{ route('register') }}">Register</a>
+                @endif
             </div>
                  </form>
                   
