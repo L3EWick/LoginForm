@@ -13,10 +13,10 @@
 background: #6a11cb;
 
 /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+background: -webkit-linear-gradient(to right, rgb(27, 27, 27), rgb(27, 27, 27));
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+background: linear-gradient(to right, rgba(27, 27, 27), rgba(27, 27, 27))
 }
 </style>
 <body>
@@ -24,7 +24,7 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-              <div class="card bg-dark text-white" style="border-radius: 1rem;">
+              <div class="card bg-dark text-white" style="border-radius: 0.5rem;">
                 <div class="card-body p-5 text-center">
       
             <div class="mb-md-5 mt-md-4 pb-5">
