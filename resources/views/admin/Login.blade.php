@@ -10,13 +10,14 @@
 <style>
     .gradient-custom {
 /* fallback for old browsers */
-background: #6a11cb;
+/* background: #000000; */
 
 /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-linear-gradient(to right, rgb(27, 27, 27), rgb(27, 27, 27));
+background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 35%, rgb(31, 31, 31) 88%);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, rgba(27, 27, 27), rgba(27, 27, 27))
+/* background: radial-gradient(circle, rgba(0,0,0,1)45%, rgb(34, 34, 34)100%, rgb(71, 71, 71) 100%); */
+background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgb(31, 31, 31) 88%);
 }
 </style>
 <body>
